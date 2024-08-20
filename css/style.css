@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+.container {
+    max-width: 1318px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-lg{
+    max-width: 1550px;
+    margin: 0 auto ;
+}
+.sticky-header {
+    padding: 22px 0;
+}
+section{overflow: hidden;}
+.sticky-header.fixed-header{
+    background-color: #024;
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    animation: fadeInDown .3s ease-in-out;
+    padding: 15px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.sticky-header.fixed-header .site-header svg{
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+}
+.sticky-header.fixed-header .site-header a{
+    color: #FFF;
+}
+h1{
+    color: #024;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 14px;
+}
+p {
+    color: #4d4f53;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    padding-bottom: 16px;
+}
+h2 {
+    color: #024;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 28px;
+}
+h3{
+    color: #024;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin: 0;
+}
+h4{
+    color: #024;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin: 0;
+}
+h5{
+    color: #024;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight:600;
+    line-height: 125%;
+}
+.CTAbtn {
+    border-radius: 15px;
+    color: #024;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 0;
+    min-width: 404px;
+    padding: 21px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.borderedCTA {
+    background-color: #63ce4d;
+    border: 3px solid #024;
+}
+.transparentCTA {
+    border: 3px solid #024;
+    background-color: transparent;
+}
+.noBorderedCTA{
+    background-color: #63ce4d;
+    border: none;
+}
+.cta-wrapper{
+    text-align: left;
+}
+.green-text {
+    color: #63ce4d;
+}
+.blue-text {
+    color: #024;
+    font-weight: 700;
+}
+.text-white {
+    color: #fff !important;
+}
+.bold-text{
+    font-weight: 700;
+}
+/* header */
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header a {
+    font-family: "DM Sans", sans-serif;
+    color: #024;  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+    margin-left: 45px;
+}
+.site-header .site-logo{
+    margin: 0;
+}
+.site-header svg {
+    color: #024;
+    fill: #024;
+    stroke: #024;
+    overflow: visible;
+    transition: fill .15s ease-in-out, stroke .15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.site-header a:hover, .site-header a:hover svg {
+    color: #63ce4d;
+    fill: #63ce4d;
+    stroke: #63ce4d;
+}
+.site-header .right-col,
+.site-header .right-col .call{
+    display: inline-flex;
+    align-items: center;
+}
+.site-header .right-col .call svg{
+    padding-right: 4px;
+}
+/* header */
+
+/* banner */
+.banner-wrapper{
+    background: url(../images/youngwoman.png);
+    background-size: 491px 744px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -40px;
+    padding-bottom: 72px;
+}
+.banner-heading {
+    padding-top: 68px;
+}
+.banner-wrapper p span {
+    color: #024;
+    font-weight: 700;
+}
+.banner-inner-wrapper p{
+    max-width: 738px;
+}
+.banner-inner-wrapper video {
+    height: 170px;
+    width: 626px;
+    margin-bottom: 19px;
+}
+.banner-inner-wrapper {
+    margin-bottom: 115px;
+}
+/* banner */
+/* settled section */
+.settled-wrapper{
+    background-image: url(/images/youngcouple.png);
+    background-size: contain;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 1192px;
+    /* padding: 96px 0; */
+}
+.settled-highlight {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.settled-highlight:not(:last-child) {
+    border-bottom: 1px solid #024;
+    margin-bottom: 28px;
+    padding-bottom: 30px;
+}
+.settled-highlight img{
+    height: 135px;
+    margin-bottom: 29px;
+    object-fit: cover;
+    width: 143px;
+}
+.settled-highlight-text {
+    color: #4d4f53;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    text-align: center;
+}
+.settled-highlight h2 {
+    color: #024;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    padding: 0;
+    text-align: center;
+}
+.settled-inner-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-left: auto;
+    /* margin-bottom: 186px; */
+}
+.settled-highlight .small-text{
+    font-size: 15px;
+}
+.settled-section{
+    padding-top: 60px;
+    background: linear-gradient(1turn,#eee 11.69%,#fff 89.58%);
+    margin-bottom: 56px;
+    /* height: 1192px; */
+    /* padding: 96px 0; */
+}
+/* settled section */
+
+/* what-to-save */
+.what-to-save-section{
+    padding-bottom: 84px;
+}
+.what-to-save-desc p{
+    font-family: "Poppins", sans-serif;
+}
+/* what-to-save */
+/* Debt metrix section */
+.debt-metrix-section {
+    background: #eee;
+    padding: 70px 0 90px;
+}
+.debt-metrix-section h3{
+    margin-bottom: 36px;
+}
+.debt-metrix-section .debt-metrix-wrapper{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 66px;
+}
+.debt-metrix-section .debt-metrix-wrapper .debt-metrix-left{
+    padding-right: 62px;
+}
+.debt-metrix-section .debt-metrix-wrapper .debt-metrix-right{
+    flex: 1 1;
+}
+.debt-metrix-section .image-blk .image{
+    height:364px;
+    width:364px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px rgba(0,0,0,.25);
+    margin-bottom: 25px
+}
+.debt-metrix-section .image-blk .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.debt-metrix-section .image-blk .image-title{
+    padding-bottom: 25px;
+}
+.debt-metrix-section .image-blk .image-title span{
+    display: block;
+    color: #4d4f53;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+}
+.debt-metrix-section .debt-blk {
+    align-items: center;
+    background-color: #002244;
+    border-radius: 15px;
+    display: flex;
+    height: 105px;
+    justify-content: center;
+    max-width: 364px;
+       
+}
+.debt-metrix-section .debt-blk p{
+    font-family: "Poppins",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 0;
+}
+.debt-metrix-section .logo-blk{
+    margin-bottom: 24px;
+}
+.debt-metrix-section .progress-bar-wrapper .green-bar,
+.debt-metrix-section .debt-consolidation-bar,
+.debt-metrix-section .credit-counselling-bar,
+.debt-metrix-section .min-payments-bar{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.debt-metrix-section .debt-consolidation h4,
+.debt-metrix-section .credit-counselling h4,
+.debt-metrix-section .min-payments h4{
+    margin-bottom: 16px;
+    text-align: left;
+}
+.debt-metrix-section .debt-consolidation-bar p,
+.debt-metrix-section .credit-counselling-bar p,
+.debt-metrix-section .min-payments-bar p,
+.debt-metrix-section .progress-bar-wrapper .green-bar p{
+    background-color: #002244;
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: left;
+    min-width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 17px;
+}
+.debt-metrix-section .progress-bar-wrapper .green-bar p{
+    background-color: #63ce4d;
+    color: #002244;
+    min-width: 10%;
+}
+.debt-metrix-section .debt-consolidation-bar p,
+.debt-metrix-section .credit-counselling-bar p{
+    min-width: 35%;
+}
+.debt-metrix-section .min-payments-bar{
+    margin-bottom: 0;
+}
+.debt-metrix-section .min-payments-bar p{
+    min-width: 100%;
+}
+.debt-metrix-section .disclaimer p{
+    font-size: 13px;
+}
+/* Debt metrix section */
+/* Client Reviews section */
+.client-reviews{
+    background: linear-gradient(180deg,#fff,#eee);
+    padding: 120px 0 31px;
+}
+.client-reviews .title{
+    padding-bottom: 98px;
+}
+.client-reviews .reviews-wrapper{
+    display: flex;
+    padding-bottom: 46px;
+}
+.client-reviews .reviews-wrapper .trustpilot-review,
+.client-reviews .reviews-wrapper .google-review{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.client-reviews .reviews-wrapper .trustpilot-review,
+.client-reviews .reviews-wrapper .google-review{
+    max-width: 440px;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px rgba(0,0,0,.25);
+    border-radius: 15px;
+    padding: 26px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.client-reviews .reviews-wrapper .image{
+    padding-bottom: 23px;
+}
+.client-reviews .trustpilot-review .image img{
+    max-width: 277px;
+}
+.client-reviews .google-review .image img{
+    max-width: 167px;
+}
+.client-reviews .reviews-wrapper .rating{
+    padding-bottom: 28px;
+}
+.client-reviews .reviews-wrapper .rating svg{
+    color: #63ce4d;
+    height: 45px;
+    width: 45px;
+}
+.client-reviews .reviews-wrapper .rating svg:not(:last-child){
+    margin-right: 5px;
+}
+.client-reviews .reviews-wrapper .rating-text p{
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.client-reviews .rating-btn{
+    text-align: center;
+}
+/* Client Reviews section */
+/* Testimonial section */
+.testimonial-slider .container{
+    max-width: 1280px;
+}
+.testimonial-slider{padding: 65px 0 88px;}
+/* .testimonial-slider .slider{max-width: 632px;} */
+.testimonial-slider .slider .slider-inner{
+    margin: 0 12px;
+    border-radius: 15px;
+    border: .5px solid rgba(77,79,83,.5);
+    overflow: hidden;
+}
+.testimonial-slider .image,
+.testimonial-slider .title{
+    margin-bottom: 36px;
+}
+.testimonial-slider .content{
+    padding: 0 36px;
+}
+.testimonial-slider .content ul{
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.testimonial-slider .content ul li{
+    border-right: 1px solid #63ce4d;
+    padding: 0 10px;
+}
+.testimonial-slider .content ul li:first-child{
+    padding-left: 0;
+}
+.testimonial-slider .content ul li:last-child{
+    padding-right: 0;
+    border-right: 0;
+}
+.testimonial-slider .content ul li:last-child p{
+    color: #002244;
+}
+.testimonial-slider .image img{width: 100%;}
+.testimonial-slider .content li span,
+.testimonial-slider .content li p{
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 0 4px 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+.testimonial-slider .content li p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.testimonial-slider .debt-desc{
+    margin-bottom:36px
+}
+.testimonial-slider .debt-desc p{
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+ 
+}
+.testimonial-slider .testimonial-source p{
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin: 0;
+    text-align: center;
+}
+.slick-dots{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+.slick-dots li{
+    background-color: #63ce4d;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.slick-dots li.slick-active{
+    background-color: #4fa53e;
+}
+.slick-dots button{
+    display: none;
+}
+/* Testimonial section */
+/* How TurboDevbt Works section */
+.how-turbodebts-works{
+    margin-bottom: 120px;
+}
+.how-turbodebts-works .title{
+    margin-bottom: 26px;
+}
+.how-turbodebts-works .content{
+    margin-bottom: 86px;
+}
+.how-turbodebts-works .content p{
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.how-turbodebts-works .content p strong{
+    color: #002244;
+}
+/* .how-turbodebts-works  .step{
+    margin-right: 32px;
+} */
+.how-turbodebts-works .steps-wrapper{
+    margin: 0 -16px;
+    width: auto;
+}
+.how-turbodebts-works  .step .steps-inner{
+    border-radius: 15px;
+    border: .5px solid rgba(77,79,83,.5);
+    overflow: hidden;
+    margin: 0 16px;
+}
+.how-turbodebts-works  .step .steps-inner .steps-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:18px 24px;
+    border-bottom:.5px solid rgba(77,79,83,.5) ;
+}
+.how-turbodebts-works .steps-bottom{
+    padding:18px 24px;
+}
+.how-turbodebts-works .steps-bottom p{
+        color: #4d4f53;
+        font-family: "DM Sans",sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin: 0;
+
+}
+.how-turbodebts-works .video{
+    margin-top: 96px;
+    text-align: center;
+}
+.how-turbodebts-works .video iframe{
+    border-radius: 15px;
+    max-height: 538px;
+    width: 100%;
+}
+.how-turbodebts-works .slick-dots,
+.turbodebt-news .slick-dots{
+    display: none !important;
+}
+/* How TurboDevbt Works section */
+/* Debt Management section */
+.debt-management{
+    background: linear-gradient(180deg,#fff,#eee);
+    margin-bottom: 120px;
+    padding-bottom: 48px;
+}
+.debt-management .cta{
+    text-align: center;
+}
+.debt-management > .title{
+    margin-bottom: 96px;
+}
+.debt-management .debt-slider{
+    margin-bottom:48px;
+}
+.debt-management .debt-slider-nav{
+    margin-bottom: 75px;
+    position: relative;
+}
+.debt-management .debt-slider-for .for-item-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.debt-management .debt-slider-for .for-item-wrapper .row{
+    align-items: center;
+}
+.debt-management .debt-slider-for .for-item-wrapper .row h4{
+    text-align: left;
+}
+.debt-management .for-item-wrapper .left-inner{
+    max-width: 515px;
+    border-radius: 15px;
+    border: .5px solid rgba(77,79,83,.5);
+    overflow: hidden;
+    margin-right: 48px;
+}
+.debt-management .for-item-wrapper .left-inner .image {
+    height: 247px;
+    width:510px
+}
+.debt-management .for-item-wrapper .left-inner .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.debt-management .for-item-wrapper .content{
+    padding: 20px 36px 31px;
+}
+.debt-management .for-item-wrapper .content h5{
+margin-bottom: 24px;
+}
+.debt-management .for-item-wrapper .content h5 a{color: #002244;transition: all 0.3s;}
+.debt-management .for-item-wrapper .content h5 a:hover{color: #4fa53e;}
+.debt-management .for-item-wrapper .content p{
+    font-size:16px;
+    font-family: "DM Sans",sans-serif;
+    line-height: 1.75;
+    color: #4d4f53;
+}
+.debt-management .for-item-wrapper .right-inner .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.debt-management .for-item-wrapper .right-inner .item:last-child{
+    margin-bottom: 0;
+}
+.debt-management .for-item-wrapper .right-inner h5{
+    font-weight: 400;
+}
+.debt-management .for-item-wrapper .item img{
+    border-radius: 8px;
+    width: 202px;
+    object-fit: cover;
+    margin-right: 24px;
+}
+.debt-management .for-item-wrapper .item h5{
+    display: inline-block;
+    font-family: "DM Sans",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.debt-management .for-item-wrapper .item h5 a{color: #024;transition: all 0.3s;}
+.debt-management .for-item-wrapper .item h5 a:hover{color: #4fa53e;}
+.debt-management .debt-slider-for{
+    background: #fff;
+    border-radius: 15px;
+    padding: 48px 40px;
+}
+.debt-management .debt-slider-nav .slider-nav-item{
+    text-align: center;
+    cursor: pointer;
+}
+.debt-management .debt-slider-nav .title p{
+    color: #002244;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom:3px solid transparent;
+    display: inline-block;
+}
+.debt-management .debt-slider-nav .image img{
+    margin: 0 auto 12px;
+}
+.debt-management .debt-slider-nav .slick-prev{
+    background-image: url(../images/prev.svg);
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 0;
+    font-size: 0;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    padding: 0;
+    z-index:999;
+}
+.debt-management .debt-slider-nav .slick-next{
+    background-image: url(../images/right.svg);
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 0;
+    font-size: 0;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    padding: 0;
+    z-index: 999;
+    right:0;
+}
+.debt-management .debt-slider-nav .slick-current .title p{
+    border-color: #63ce4d
+}
+/* Debt Management section */
+/* Turbo News section */
+.turbodebt-news{
+    margin-bottom: 120px;
+}
+.turbodebt-news .title{
+    padding-bottom: 96px;
+}
+.turbodebt-news .news-wrapper{
+    margin: 0 -16px 36px;
+}
+.turbodebt-news .cta{
+    text-align: center;
+}
+.turbodebt-news .news{
+    padding: 0 16px;
+}
+.turbodebt-news .news-inner{
+    background-color: #fff;
+    box-shadow: 3px 4px 5px rgba(0,0,0,.25);
+    border-radius: 15px;
+    border: .5px solid rgba(77,79,83,.5);
+    overflow: hidden;
+}
+.turbodebt-news .news-inner .image img{
+    width: 100%;
+}
+.turbodebt-news .news-inner .content{
+    padding: 24px 36px 36px;
+}
+.turbodebt-news .news-inner .badge{
+    border-radius: 8px;
+    background: rgba(77, 79, 83, 0.3);
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 24px;
+}
+.turbodebt-news .news-inner .badge.badge-green{
+    background: rgba(99, 206, 77, 0.5);
+}
+.turbodebt-news .news-inner .badge span{
+    color: #002244;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+.turbodebt-news .news-inner .subtitle{
+    margin-bottom: 24px;
+}
+.turbodebt-news .news-inner .text p{
+
+    color: #4d4f53;
+    font-family: "DM Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* Turbo News section */
+/* faq-section */
+.faq-section{
+    margin-bottom: 120px;
+}
+.cta{
+    text-align: center;
+}
+.faq-items {
+    border: 0.5px solid #4d4f53!important;
+    border-radius: 15px !important;
+    margin-bottom: 36px;
+    overflow: hidden;
+}
+.faq-items.active {
+    border: 5px solid #63ce4d !important;
+    border-radius: 15px !important;
+}
+.faq-items h3{
+    font-size: 24px;
+    text-align: left;
+    padding: 42px 38px;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+}
+.faq-desc{
+    margin: 0 109px 0 38px;
+}
+.faq-items h3:after {
+    position: absolute;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/download.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    transform: translateY(-50%) rotate(-90deg);
+    right: 38px;
+    top: 50%;
+    transition: all 0.3s;
+}
+.faq-items.active h3:after {
+    transform: translateY(-50%) rotate(90deg);
+    transition: all 0.3s;
+}
+.faq-desc p {
+    font-size: 20px;   
+}
+.faq-desc p span{
+    font-weight: 500;   
+}
+/* faq-section */
+/* Take control section */
+.take-control-wrapper{
+    background: url(/images/areyouready.webp);
+    background-position-x: right;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 120px;
+    padding: 94px 37px 92px;
+}
+.take-control-wrapper h2{
+    max-width: 582px;
+}
+.take-control-wrapper p{
+    max-width: 772px;
+}
+/* Take control section */
+/* Footer css */
+.site-footer{
+    background-color: #024;
+    padding-top: 96px;
+    margin-bottom: 94px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -12px;
+}
+.col-6{
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    padding: 0 12px;
+}
+.col-3{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 12px;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-social p{
+    font-size: 30px;
+    padding-right: 54px;
+    padding-bottom: 0;
+    color: #ffffff;
+    font-weight: 700;
+}
+.footer-logo  {
+    margin-bottom: 92px;
+}
+.footer-badge >img {
+    height: 158px;
+    width: 187px;
+}
+.footer-social-links {
+    align-items: center;
+    display: flex;
+}
+.footer-social-links > * {
+    margin-left: 36px;
+}
+.footer-menu{
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu>div {
+    border-bottom: none;
+    margin: 0 auto auto;
+    padding-bottom: 0;
+}
+.footer-menu h4 {
+    font-size: 22px;
+    line-height: 2;
+    color: #fff;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+.footer-menu ul li {
+    line-height: 1.75;
+}
+.footer-menu ul li a {
+    font-size: 17px;
+    line-height: 2;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.rights p{
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+.rights p.disclaimer{
+    font-size: 12px;
+}
+/* Footer css */
+/* sticky-footer */
+.sticky-unit {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+    z-index: 9996;
+    overflow: hidden;
+    width: 100%;
+}
+.stick-unit-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #024;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.stick-unit-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4d4f53;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+}
+.sticky-number {
+    margin-right: 25px;
+    margin-bottom: 0;
+    align-self: center;
+    color: #024;
+    font-weight: 700;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+.sticky-unit-container p{
+    padding-bottom: 0;
+}
+.sticky-unit-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.sticky-unit .noBorderedCTA {
+    width: auto;
+    min-width: 173px;
+    padding: 18px 33px;
+    border-radius: 8px;
+    height: 56px;
+    font-size: 20px;
+}
+.sticky-phone {
+    width: 34.75px;
+    height: 34.75px;
+}
+/* sticky-footer */
+
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Poppins", sans-serif; */

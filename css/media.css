@@ -1,0 +1,516 @@
+@media (max-width: 1340px) {
+    .settled-inner-section {
+        max-width: 400px;
+    }
+    .how-turbodebts-works .step .steps-inner{
+        margin: 0 12px;
+    }
+}
+@media (max-width: 1280px) {
+    .container, .testimonial-slider .container {
+        max-width: 1170px;
+    }
+    h3{
+        font-size: 38px;
+    }
+    .how-turbodebts-works .slick-slide img {
+        max-width: 70px;
+    }
+}
+@media (max-width: 1199px) {
+    .settled-highlight h2{
+        font-size: 52px;
+    }
+    .settled-highlight-text{
+        font-size: 26px;
+    }
+    .settled-highlight img {
+        height: 95px;
+        width: 97px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .faq-items h3{
+        padding: 27px;
+    }
+    .footer-menu {
+        padding: 66px 0;
+    }
+    .banner-wrapper{
+        background-size: 421px 644px;
+    }
+}
+@media (max-width: 1024px) {
+    h1{font-size: 50px;}
+    .banner-inner-wrapper video {
+        height: 130px;
+        width: 536px;
+    }
+    .banner-wrapper {
+        background-position: calc(100% - -34px) 110px;
+        background-size: 300px auto;
+        padding-bottom: 130px;
+    }
+    .settled-wrapper{background: none;height: auto;padding-bottom: 34px;}
+    .settled-inner-section {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .container, .testimonial-slider .container {
+        max-width: 750px;
+    }
+    h2{font-size: 36px;}
+    h4{font-size: 24px; margin-bottom: 12px;}
+    p {
+        font-size: 19px;
+    }
+    .sticky-header .site-header .right-col a:not(.call){
+        display: none;
+    }
+    .stick-unit-heading {
+        font-size: 15px;
+        line-height: 22px;
+        padding-bottom: 8px;
+    }
+    .stick-unit-text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .sticky-number {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .sticky-unit .noBorderedCTA  {
+        font-size: 15px;
+        line-height: 21px;
+        min-width: 127px;
+        height: 50px;
+        padding: 18px 14px;
+    }
+    .sticky-phone {
+        width: 20px;
+        height: 20px;
+    }
+    .debt-metrix-section .debt-metrix-wrapper{
+        flex-wrap: wrap;
+    }
+    .debt-metrix-section .debt-metrix-wrapper .debt-metrix-left{
+        padding: 0 ;
+        margin-bottom: 32px;
+    }
+    .debt-metrix-section .image-blk .image{
+        margin: 0 auto 25px;
+        height: 300px;
+        width: 300px;
+    }
+    .debt-metrix-section .debt-blk{
+        margin: 0 auto;
+        max-width: 300px;
+        height: 94px;
+    }
+    .debt-metrix-section .debt-metrix-wrapper .debt-metrix-left,
+    .debt-metrix-section .debt-metrix-wrapper .debt-metrix-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .debt-metrix-section .debt-blk p{
+        font-size: 28px;
+    }
+    .debt-metrix-section .logo-blk img {
+        max-width: 209px;
+    }
+    .debt-metrix-section .logo-blk {
+        margin-bottom: 16px;
+    }
+    .debt-metrix-section .debt-consolidation-bar p, .debt-metrix-section .credit-counselling-bar p, .debt-metrix-section .min-payments-bar p,
+    .debt-metrix-section .progress-bar-wrapper .green-bar p{
+        font-size: 22px;
+        padding: 12px 17px;
+    }
+    .debt-metrix-section .progress-bar-wrapper .green-bar, .debt-metrix-section .debt-consolidation-bar, .debt-metrix-section .credit-counselling-bar, .debt-metrix-section .min-payments-bar{
+        height: 51px;
+        margin-bottom: 14px;
+    }
+    .debt-metrix-section .debt-metrix-wrapper{
+        margin-bottom: 25px;
+    }
+    .debt-metrix-section{
+        padding: 55px 0;
+    }
+    .client-reviews .reviews-wrapper .trustpilot-review, .client-reviews .reviews-wrapper .google-review{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 48px;
+        padding: 24px 0;
+    }
+    .client-reviews .reviews-wrapper{
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .client-reviews .reviews-wrapper .rating-text p{
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+    .client-reviews .reviews-wrapper .rating svg{
+        height: 40px;
+        width: 40px;
+    }
+    .client-reviews .reviews-wrapper .rating > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .client-reviews .reviews-wrapper .rating,
+    .client-reviews .reviews-wrapper .image{
+        padding-bottom: 8px;
+    }
+    .client-reviews .trustpilot-review .image img {
+        max-width: 223px;
+    }
+    .client-reviews .google-review .image img {
+        max-width: 121px;
+    }
+    .client-reviews .title {
+        padding-bottom: 36px;
+    }
+    .CTAbtn,
+    .transparentCTA{
+        border-width: 1.5px;
+    }
+    .how-turbodebts-works .step .steps-inner{
+        margin: 0 4px;
+    }
+    .how-turbodebts-works .step .steps-inner .steps-top h3{
+        font-size: 30px;
+    }
+    .how-turbodebts-works .steps-bottom p{
+        font-size: 17px;
+    }
+    .how-turbodebts-works .step .steps-inner .steps-top{
+        padding: 16px 24px;
+    }
+    .how-turbodebts-works .video iframe{
+        max-height: 353px;
+        margin: 0 auto;
+        max-width: 628px;
+    }
+    .debt-management .debt-slider-nav .title p{
+        font-size: 22px;
+    }
+    .debt-management .debt-slider-for .for-item-wrapper{
+        flex-wrap: wrap;
+    }
+    .debt-management .debt-slider-for .for-item-wrapper .left{
+        display: none;
+    }
+    .take-control-wrapper{
+        background-image: url(../images/areyoureadytall-mobile.webp);
+        padding: 46px 37px 46px;
+        background-position-x: right;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .take-control-wrapper h2 {
+        max-width: 542px;
+    }
+    .take-control-wrapper p {
+        max-width: 492px;
+    }
+    .how-turbodebts-works .slick-dots,
+.turbodebt-news .slick-dots{
+    display: flex !important;
+}
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    .banner-heading {
+        padding-top: 43px;
+    }
+    .banner-inner-wrapper p{
+        font-size: 24px;
+        max-width: 558px;
+    }
+    .banner-inner-wrapper video {
+        height: 186px;
+        width: 462px;
+    }
+    .banner-wrapper{
+        padding-bottom: 10px
+    }
+    .settled-section {
+        padding-top:0; 
+    }
+    .what-to-save-section {
+        padding-bottom: 54px;
+    }
+    .debt-metrix-section {
+        padding: 55px 0 38px;
+    }
+    .client-reviews{
+        padding: 57px 0;
+    }
+    .testimonial-slider{
+        padding: 55px 0 ;
+    }
+    .how-turbodebts-works .content{
+        margin-bottom: 30px;
+    }
+    .how-turbodebts-works .video{
+        margin-top: 50px;
+    }
+    .how-turbodebts-works, .debt-management, .turbodebt-news, .faq-section, .take-control-wrapper, .footer-logo{
+        margin-bottom: 50px;
+    }
+    .turbodebt-news .title{
+        padding-bottom: 30px;
+    }
+    .how-turbodebts-works .content p{
+        font-size: 19px;
+    }
+    .testimonial-slider .slider .slider-inner{
+        margin: 0;
+    }
+    .footer-logo img{
+        max-width: 220px;
+        height: auto;
+    }
+    .footer-social-links a,
+    .footer-social-links a svg{
+        width: 25px;
+        height: 25px;
+    }
+    .footer-social-links > * {
+        margin-left: 24px;
+    }
+    .footer-social p{font-size: 18px;padding-right: 36px;}
+    .col-3, .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-badge >img {
+        height: auto;
+        width: 125px;
+    }
+    .footer-social{
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+    .footer-menu h4{
+        font-size: 18px;
+    }
+    .footer-menu ul li a{
+        font-size: 14px;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
+    }
+    .footer-menu>div{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: .5px solid #fff;
+    }
+    .rights p{
+        font-size: 15px;
+    }
+    .rights p.disclaimer{
+        font-size: 10px;
+    }
+    .site-footer{
+        margin-bottom: 80px;
+    }
+}
+@media(max-width: 678px){
+    .site-header .site-logo img{max-width: 140px;}
+    .sticky-header {
+        padding: 15px 0;
+    }
+    .site-header a.call span{display: none;}
+    .site-header .right-col .call svg{
+        padding: 0;
+        width: 14px;
+        height: 14px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .banner-inner-wrapper p {
+        font-size: 15px;
+    }
+    .banner-wrapper{background-position: calc(100% - -34px) 130px;
+        background-size: auto 277px;
+        padding-bottom: 54px;}
+    .banner-inner-wrapper video {
+        height: 64px;
+        width: 235px;
+    }
+    .CTAbtn{
+        min-width: auto;
+        padding: 16px 10px;
+        text-align: center;
+        min-width: 220px;
+        font-size: 15px;
+    }
+    .settled-highlight img {
+        height: 71px;
+        width: 65px;
+    }
+    .settled-highlight-text {
+        font-size: 15px;
+    }
+    .settled-highlight h2 {
+        font-size: 36px;
+        margin-bottom: 2px;
+    }
+    .settled-highlight:not(:last-child) {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .settled-wrapper{
+        padding-bottom: 54px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{font-size: 15px; padding-bottom: 12px;}
+    .what-to-save-desc p:last-child{
+        padding: 0;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .debt-metrix-section .image-blk .image{
+        height: 176px;
+        width: 176px;
+    }
+    .debt-metrix-section .image-blk .image-title span{font-size: 12px;}
+    .debt-metrix-section .image-blk .image-title{padding-bottom: 12px;}
+    .debt-metrix-section .debt-blk p{font-size: 18px;}
+    .debt-metrix-section .debt-blk{
+        height: auto;
+        width: auto;
+        padding: 15px 25px;
+        max-width: max-content;
+        border-radius: 8px;
+    }
+    .debt-metrix-section .logo-blk img {
+        max-width: 106px;
+    }
+    .debt-metrix-section .debt-consolidation-bar p, .debt-metrix-section .credit-counselling-bar p, .debt-metrix-section .min-payments-bar p, .debt-metrix-section .progress-bar-wrapper .green-bar p{font-size: 13px;}
+    .debt-metrix-section .progress-bar-wrapper .green-bar, .debt-metrix-section .debt-consolidation-bar, .debt-metrix-section .credit-counselling-bar, .debt-metrix-section .min-payments-bar{height: 26px;margin-bottom: 8px;}
+    h4{font-size: 14px; margin-bottom: 8px;}
+    h5{font-size: 18px;}
+    .debt-metrix-section .debt-consolidation h4, .debt-metrix-section .credit-counselling h4, .debt-metrix-section .min-payments h4{margin-bottom: 8px;}
+    .debt-metrix-section .disclaimer p{font-size: 10px;}
+    .client-reviews .title{padding: 0; text-align: center;}
+    .client-reviews .trustpilot-review .image img {
+        max-width: 128px;
+    }
+    .client-reviews .google-review .image img {
+        max-width: 82px;
+    }
+    .client-reviews .reviews-wrapper .rating svg {
+        height: 22px;
+        width: 22px;
+    }
+    .client-reviews .reviews-wrapper .rating-text p {
+        font-size: 12px;
+    
+    }
+    .client-reviews .reviews-wrapper .trustpilot-review, .client-reviews .reviews-wrapper .google-review{
+        padding: 12px;
+        flex: 0 0 220px;
+        max-width: 220px;
+        border: .5px solid rgba(77, 79, 83, .5);
+        box-shadow: none;
+        border-radius: 8px;
+    }
+    .testimonial-slider .content li span{font-size: 11px;}
+    .testimonial-slider .testimonial-source p, .how-turbodebts-works .steps-bottom p{font-size: 13px;}
+    .testimonial-slider .content li p, .testimonial-slider .debt-desc p,.how-turbodebts-works .content p{font-size: 15px;}
+    .testimonial-slider .content {
+        padding: 0 13px;
+    }
+    .how-turbodebts-works .step .steps-inner .steps-top h3 {
+        font-size: 20px;
+    }
+    .how-turbodebts-works .slick-slide img {
+        max-width: 45px;
+    }
+    .how-turbodebts-works .step .steps-inner{margin: 0 15px;}
+    .how-turbodebts-works .video iframe {
+        max-height: 202px;
+    }
+    .debt-management .debt-slider-nav .title p, .turbodebt-news .news-inner .text p{font-size: 14px;}
+    .debt-management .debt-slider-for{    padding: 14px 18px;}
+    .debt-management .for-item-wrapper .item img{width: 80px;}
+    .debt-management .for-item-wrapper .item h5{font-size: 14px;}
+    .debt-management .for-item-wrapper .right-inner .item{margin-bottom: 36px;}
+    .debt-management .debt-slider-nav {
+        margin-bottom: 30px;
+    }
+    .turbodebt-news .news-inner .content{padding:18px 24px}
+    .turbodebt-news .news-inner .badge span{font-size: 12px;}
+    .faq-items h3 {
+        padding: 24px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .faq-items h3:after{
+        right: 15px;
+    }
+    .take-control-wrapper{
+        padding: 32px 24px 38px 28px;
+        background-position-x: 409px;
+    }
+    .footer-badge >img {
+        width: 89px;
+    }
+    .site-footer{
+        padding-top: 50px;
+    }
+    .footer-logo{margin-bottom: 30px;}
+    .footer-social p {
+        font-size: 15px;
+        padding-right: 8px;
+    }
+    .footer-social-links a, .footer-social-links a svg {
+        width: 15px;
+        height: 15px;
+    }
+    .footer-social-links > * {
+        margin-left: 16px;
+    }
+    .footer-menu h4{font-size: 14px;}
+    .footer-menu ul li a{font-size: 12px;}
+    .footer-menu>div{margin-bottom: 24px; padding-bottom: 24px;}
+    .footer-menu{padding: 56px 0;}
+    .rights p.disclaimer {
+        font-size: 9px;
+        line-height: 21px;
+    }
+    .stick-unit-heading {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .stick-unit-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .sticky-number{display: none;}
+    .sticky-unit .noBorderedCTA {
+        min-width: 97px;
+        padding: 15px 14px;
+    }
+}
